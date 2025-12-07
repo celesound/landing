@@ -60,6 +60,23 @@ body {
   border: none;
 }
 
+.embed.youtube iframe {
+  height: 500px;
+  border-radius: 12px;
+}
+
+@media (max-width: 999px) {
+  .embed.youtube iframe {
+    height: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .embed.youtube iframe {
+    height: 315px;
+  }
+}
+
 .site-footer {
   bottom: 0;
   display: flex;
